@@ -143,14 +143,12 @@ if(keyPressed){
   if(key == 'r'){
  
     color c = color(random(255), 255, 255);
-     ball.setGravity(0, -10);
-
-    
+     
       esferas.add(new Esfera(random(width), 0, random(0,10), c));
     }
   }
   
- 
+  ball.setGravity(0, -50);
   ball.step();
 
   for (int i = esferas.size()-1; i >= 0; i--) {
