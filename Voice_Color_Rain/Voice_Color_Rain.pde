@@ -164,7 +164,7 @@ if(keyPressed){
     }
   }
   
-  ball.setGravity(0, -10);
+  ball.setGravity(0, -50);
   ball.step();
 
   for (int i = esferas.size()-1; i >= 0; i--) {
